@@ -1,0 +1,11 @@
+[package]
+name = "rust-time64"
+version = "0.1.0"
+authors = ["Érico Rolim <ericonr@disroot.org>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.86"
+
+[build-dependencies]
+cc = "1.0"
